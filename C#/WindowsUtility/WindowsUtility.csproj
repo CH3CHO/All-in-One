@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C54F5241-1323-45F7-A891-E0018A690311}</ProjectGuid>
+    <ProjectGuid>{F80911FF-1E7D-4B0B-9D6D-D0F39FF38EB3}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>GenericUtility</RootNamespace>
-    <AssemblyName>GenericUtility</AssemblyName>
+    <RootNamespace>WindowsUtility</RootNamespace>
+    <AssemblyName>WindowsUtility</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -32,6 +32,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -39,16 +40,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DateTimeExtensions.cs" />
-    <Compile Include="EncryptionUtils.cs" />
-    <Compile Include="NetworkUtils.cs" />
+    <Compile Include="ProcessUtils.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RandomUtils.cs" />
-    <Compile Include="StreamUtils.cs" />
-    <Compile Include="StringExtensions.cs" />
-    <Compile Include="TimeUtils.cs" />
-    <Compile Include="VersionUtils.cs" />
-    <Compile Include="XmlUtils.cs" />
+    <Compile Include="StartUpUtils.cs" />
+    <Compile Include="WindowsSecurity.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

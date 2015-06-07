@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormUtility", "WinFormUt
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericUtility", "GenericUtility\GenericUtility.csproj", "{C54F5241-1323-45F7-A891-E0018A690311}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsUtility", "WindowsUtility\WindowsUtility.csproj", "{F80911FF-1E7D-4B0B-9D6D-D0F39FF38EB3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{C54F5241-1323-45F7-A891-E0018A690311}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C54F5241-1323-45F7-A891-E0018A690311}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C54F5241-1323-45F7-A891-E0018A690311}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F80911FF-1E7D-4B0B-9D6D-D0F39FF38EB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F80911FF-1E7D-4B0B-9D6D-D0F39FF38EB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F80911FF-1E7D-4B0B-9D6D-D0F39FF38EB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F80911FF-1E7D-4B0B-9D6D-D0F39FF38EB3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
